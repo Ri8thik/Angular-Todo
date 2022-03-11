@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    /* background-color: ; */
+    color: rgb(172, 161, 161);
+}
+p:hover{
+    background-color: lightgreen;
+    color: black;
+}
+*{
+    background-color: lightgreen;
+}
+
+h3{text-align: center;}

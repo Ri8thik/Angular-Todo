@@ -1,0 +1,9 @@
+<div class="container">
+    <p class="mt-4 mb-2">Sno : {{snoTask}} Task : {{textTask}} </p>
+    <button class="btn btn-danger btn-sm "
+    [disabled]="isCheckDiable()"
+    (click)="getTaskDelete()"
+    >Delete</button>
+    <button class="btn btn-primary btn-sm" [ngStyle]="{'background-color':checkBtnColor()}"
+        (click)="onBtnClick()">{{statusTask}}</button>
+</div>
